@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div#space  {
+    border: 1px solid black;
+    background-image: url("./assets/png/Background/starBackground.png");
+    position: relative;
+    overflow: hidden;
+}
+
+#ship {
+    position: absolute;
+}
+
+.enemy-ship{
+    position: absolute;
+
+}
+
+#lives {
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+}
+
+.life{
+    width: 30px;
+    height: 20px;
+    padding: 2px;
+}
+
+.score{
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    font-family: monospace;
+}
